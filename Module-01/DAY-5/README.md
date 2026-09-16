@@ -1,13 +1,4 @@
 # Ex.No:1(E)  STATIC VARIABLE
-
-## AIM:
-To write a Java program to print student details (name and age), where age is the same for all students. Use a static variable to represent the age and demonstrate its use in accessing a shared value across all class objects
-
-## ALGORITHM :
-1.	Start the program.
-2.	Create a class named Student.
-3.	Declare a static variable age in the Student class.
-4.	Declare an instance variable name.
 5.	Create a constructor to initialize the student's name.
 6.	Define a method displayDetails() to print the student's name and age.
 7.	In the main method:
@@ -20,15 +11,43 @@ III.	Call the displayDetails() method for each student.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Kirthick sha R
+RegisterNumber:  212224230124
 ```
 
 ## Sourcecode.java:
+```java
+class Student
+{
+    static int age;
+    String name;
 
+    Student(String name)
+    {
+        this.name = name;
+    }
+
+    void displayDetails()
+    {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+
+    public static void main(String args[])
+    {
+        Student.age = 20;
+
+        Student student1 = new Student("Aswin");
+        Student student2 = new Student("Arun");
+        Student student3 = new Student("Karthik");
+
+        student1.displayDetails();
+        student2.displayDetails();
+        student3.displayDetails();
+    }
+}
+```
 
 
 
@@ -36,6 +55,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="647" height="276" alt="image" src="https://github.com/user-attachments/assets/54cab95d-3a5d-4f05-8959-3015a3e614d3" />
 
 
 
