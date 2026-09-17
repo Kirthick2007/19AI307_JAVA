@@ -22,23 +22,43 @@ To develop a java program use append() method concatenates the given argument wi
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Buffer using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Kirthick sha R
+RegisterNumber:  212224230124
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.Scanner;
 
+class concat
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        String a = sc.nextLine();
+        String b = sc.nextLine();
+
+        StringBuffer sb = new StringBuffer(a);
+
+        sb.append(" ");
+        sb.append(b);
+
+        System.out.println("Concatenated String: " + sb);
+
+        sc.close();
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
-
+![Image](https://github.com/aswin0603/19AI307_JAVA/blob/main/Module-03/DAY-2/Screenshot%202026-08-25%20202416.png)
 
 
 ## RESULT:
