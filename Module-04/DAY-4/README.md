@@ -29,20 +29,56 @@
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: kirthick sha R
+RegisterNumber:  212224230124
+/*
 ```
 
 ## Sourcecode.java:
 
+```java
+class Name
+{
+    String Fname;
+    String Mname;
+    String Lname;
 
+    void dispName(String fn, String mn, String ln)
+    {
+        System.out.println("Employee Name: " + fn + " " + mn + " " + ln);
+    }
+
+    public static void main(String args[])
+    {
+        Employee emp = new Employee();
+
+        emp.disp(101);
+    }
+}
+
+class Employee
+{
+    int Emp_Id;
+    Name obj;
+
+    void disp(int id)
+    {
+        Emp_Id = id;
+
+        System.out.println("Employee ID: " + Emp_Id);
+
+        obj = new Name();
+        obj.dispName("B", "Leo", "John");
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+<img width="652" height="205" alt="image" src="https://github.com/user-attachments/assets/c9fb371c-9fc2-421d-a5ed-b88623f8858d" />
 
 
 
