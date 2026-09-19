@@ -1,4 +1,5 @@
 # Ex.No:2(A)  STATIC METHOD
+1. start the program
 2.	Declare a variable to store input : Declare an integer variable n to hold the number whose cube will be calculated.
 3.	Create a Scanner object : Create a Scanner object (sc) to read the input from the user.
 4.	Read input from the user : Prompt the user to input an integer value. The input value is stored in the variable n.
