@@ -1,4 +1,5 @@
-# Ex.No:1(E)  STATIC VARIABLE
+## Ex.No:1(E)  STATIC VARIABLE
+```
 1.Start
 2.Declare a class Student.
 3.Declare static variable age and string variable name.
@@ -11,7 +12,7 @@
 10.Display details of student2.
 11.Display details of student3.
 Stop.
-
+```
 
 
 ## PROGRAM:
