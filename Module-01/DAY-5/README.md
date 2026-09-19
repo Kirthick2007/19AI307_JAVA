@@ -1,18 +1,15 @@
 # Ex.No:1(E)  STATIC VARIABLE
-Start
-Declare a class named Student.
-Declare a static variable age and a normal String variable name.
-Create a constructor Student(String name) to initialize the student's name.
-Create a method displayDetails() to display:
-Student's name
-Student's age
-In the main() method, set the static variable Student.age = 20.
-Create three student objects:
-student1 with name Aswin
-student2 with name Arun
-student3 with name Karthik
-Call displayDetails() for each student object.
-Display the name and common age (20) for all three students.
+1.Start
+2.Declare a class Student.
+3.Declare static variable age and string variable name.
+4.Initialize name using the constructor.
+5.Set Student.age = 20.
+6.Create student1 with name Aswin.
+7.Create student2 with name Arun.
+8.Create student3 with name Karthik.
+9.Display details of student1.
+10.Display details of student2.
+11.Display details of student3.
 Stop.
 
 
