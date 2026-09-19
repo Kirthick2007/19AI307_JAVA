@@ -1,4 +1,7 @@
 # Ex.No:2(B) ACCESS MODIFIERS
+
+1. Start
+2. Declare two private integer variables num1 and num2.
 3.	Declare two private integer variables, `num1` and `num2`
 4.	Define a private method `add()` that:
 a)	Returns the sum of `num1` and `num2`
