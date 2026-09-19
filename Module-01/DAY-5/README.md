@@ -1,11 +1,19 @@
 # Ex.No:1(E)  STATIC VARIABLE
-5.	Create a constructor to initialize the student's name.
-6.	Define a method displayDetails() to print the student's name and age.
-7.	In the main method:
-I.	Assign a value to the static variable age.
-II.	Create multiple Student objects with different names.
-III.	Call the displayDetails() method for each student.
-8.	End the program.
+Start
+Declare a class named Student.
+Declare a static variable age and a normal String variable name.
+Create a constructor Student(String name) to initialize the student's name.
+Create a method displayDetails() to display:
+Student's name
+Student's age
+In the main() method, set the static variable Student.age = 20.
+Create three student objects:
+student1 with name Aswin
+student2 with name Arun
+student3 with name Karthik
+Call displayDetails() for each student object.
+Display the name and common age (20) for all three students.
+Stop.
 
 
 
