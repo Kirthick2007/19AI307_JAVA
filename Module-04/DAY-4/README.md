@@ -37,38 +37,51 @@ RegisterNumber:  212224230124
 ## Sourcecode.java:
 
 ```java
+class Employee
+{
+    static String companyName = "ABC Company";
+
+    final int Emp_Id;
+
+    Name name;
+
+    Employee(int id, String fname, String mname, String lname)
+    {
+        Emp_Id = id;
+        name = new Name(fname, mname, lname);
+    }
+
+    void display()
+    {
+        System.out.println("Employee ID: " + Emp_Id);
+        System.out.println("First Name: " + name.Fname);
+        System.out.println("Middle Name: " + name.Mname);
+        System.out.println("Last Name: " + name.Lname);
+        System.out.println("Company: " + companyName);
+    }
+}
+
 class Name
 {
     String Fname;
     String Mname;
     String Lname;
 
-    void dispName(String fn, String mn, String ln)
+    Name(String fname, String mname, String lname)
     {
-        System.out.println("Employee Name: " + fn + " " + mn + " " + ln);
-    }
-
-    public static void main(String args[])
-    {
-        Employee emp = new Employee();
-
-        emp.disp(101);
+        Fname = fname;
+        Mname = mname;
+        Lname = lname;
     }
 }
 
-class Employee
+class Main
 {
-    int Emp_Id;
-    Name obj;
-
-    void disp(int id)
+    public static void main(String args[])
     {
-        Emp_Id = id;
+        Employee e1 = new Employee(101, "Kirthick", "Raj", "Sha");
 
-        System.out.println("Employee ID: " + Emp_Id);
-
-        obj = new Name();
-        obj.dispName("B", "Leo", "John");
+        e1.display();
     }
 }
 ```
